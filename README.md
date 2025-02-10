@@ -23,7 +23,3 @@
     ```bash
     npm run dev
     ```
-
-**--- OR ---**
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/novorender/novorender-examples/tree/master/nextjs-react-ts?file=src/app/page.tsx)
