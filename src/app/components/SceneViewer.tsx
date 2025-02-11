@@ -50,12 +50,11 @@ export default function SceneViewer() {
   const handleCameraChange = (buttonId: number) => {
     const cameraState = cameraPositions[buttonId];
     if (cameraState && canvasView) {
-      canvasView.modifyRenderState({
-        camera: {
-          position: cameraState.position,
-          rotation: cameraState.rotation,
-        },
-      });
+      canvasView.activeController.moveTo(
+        cameraState.position,
+        1000,
+        cameraState.rotation
+      );
     }
   };
 
