@@ -3,13 +3,13 @@
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/novorender/novorender-examples.git
+    git clone https://github.com/rahul-mehta-procore/novorender-search-poc.git
     ```
 
 2. Navigate into the project directory:
 
     ```bash
-        cd nextjs-react-ts
+        cd novorender-search-poc
     ```
 
 3. Install project dependencies:
